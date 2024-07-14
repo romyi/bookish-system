@@ -19,10 +19,10 @@ export function App() {
             top: 0,
             left: 0,
             position: 'absolute',
-            width: window.innerWidth,
-            height: window.innerWidth * 0.8
-        }} width={window.innerWidth * 5} height={window.innerWidth * 0.8 * 5} ></canvas>
-        <Grid w={window.innerWidth} h={window.innerWidth * 0.8} />
+            width: window.innerWidth * 1.6,
+            height: window.innerWidth * 1.6 * 0.8
+        }} width={window.innerWidth * 8} height={window.innerWidth * 0.8 * 8} ></canvas>
+        <Grid w={window.innerWidth * 1.6} h={window.innerWidth * 1.6 * 0.8} />
         </>
     )
 }

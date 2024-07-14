@@ -1,7 +1,7 @@
 let cs: OffscreenCanvas;
 
 async function loadimage() {
-  const res = await fetch(new URL("/painted-pressed.png", import.meta.url));
+  const res = await fetch(new URL("/map-sm.webp", import.meta.url));
   return await res.blob();
 }
 
