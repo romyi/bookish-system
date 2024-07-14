@@ -1,0 +1,10 @@
+.keypadplacement {
+    padding: 12px;
+    background-color: white;
+    border-radius: 2px;
+    z-index: 30;
+    position: fixed;
+    top: 40px;
+    left: 360px;
+    width: fit-content;
+}
